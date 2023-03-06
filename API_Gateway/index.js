@@ -23,7 +23,7 @@ app.get('/order/get/:name', orderCalls.getOrder); // Obtiene una orden por su no
 app.put('/order/update/:name', orderCalls.updateOrder); // Actualiza una orden por su nombre
 
 // Ruta para las operaciones de reseñas
-app.post('/review/create', reviewCalls.createReview); // Crea una reseña
+app.post('/review/create', reviewCalls.createReview); // Crea una resena
 
 // Inicia el servidor en el puerto especificado en el archivo .env
 app.listen(process.env.PORT_SERVER, () => {

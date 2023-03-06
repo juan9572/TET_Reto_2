@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package reviews.interface;
+
+service ReviewService {
+  rpc createReview(CreateReviewRequest) returns (CreateReviewResponse);
+}
+
+message Review {
+  string nameBuyer = 1;
+  string nameProduct = 2;
+  string commentary = 3;
+  int32 puntuation = 4;
+}
+
+message CreateReviewRequest {
+  Review review = 1;
+}
+
+message CreateReviewResponse {
+  string messageOfConfirmation = 1;
+}

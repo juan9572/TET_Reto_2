@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+package com.inventario.product.interfaces;
+
+option java_multiple_files = true; // Crear multiples archivos para los servicios
+option java_package = "com.inventario.product.interfaces"; // Donde va a crear los archivos java
+option java_outer_classname = "InventarioInterface"; // Nombre de la interfaz
+
+service ProductService {
+  rpc createProduct(CreateProductRequest) returns (CreateProductResponse) {}
+  rpc readProduct(ReadProductRequest) returns (ReadProductResponse) {}
+  rpc getAllProducts(google.protobuf.Empty) returns (GetAllResponse) {}
+  rpc updateProduct(UpdateProductRequest) returns (UpdateProductResponse) {}
+  rpc deleteProduct(DeleteProductRequest) returns (DeleteProductResponse) {}
+}
+
+message Product {
+  string name = 1;
+  string description = 2;
+  double price = 3;
+  int32 stock_quantity = 4;
+  string seller = 5;
+}
+
+message CreateProductRequest {
+  Product product = 1;
+}
+
+message CreateProductResponse {
+  string messageOfConfirmation = 1;
+}
+
+message ReadProductRequest {
+  string name = 1;
+}
+
+message ReadProductResponse {
+  Product product = 1;
+}
+
+message GetAllResponse {
+  repeated Product product = 1;
+}
+
+message UpdateProductRequest {
+  string name = 1;
+  Product product = 2;
+}
+
+message UpdateProductResponse {
+  string messageOfConfirmation = 1;
+}
+
+message DeleteProductRequest {
+  string name = 1;
+}
+
+message DeleteProductResponse {
+  string messageOfConfirmation = 1;
+}

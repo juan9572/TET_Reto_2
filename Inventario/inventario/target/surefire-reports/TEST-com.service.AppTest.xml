@@ -1,69 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.service.AppTest" time="0.003" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.service.AppTest" time="0.019" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="idea.version" value="2022.3.2"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="19.0.2+7-44"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\juanp\OneDrive\Escritorio\Inventario\inventario"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="CO"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\juanp\OneDrive\Escritorio\Inventario\inventario"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="19.0.2+7-44"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\juanp\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="stderr.encoding" value="UTF-8"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven-event-listener.jar"/>
-    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="stdout.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\gradle-6.9.4\bin;C:\Program Files\Java\apache-maven-3.9.0\bin;C:\ProgramData\chocolatey\bin;C:\Users\juanp\AppData\Local\Pub\Cache\bin;C:\tools\proto\bin;C:\Program Files\nodejs\;C:\Users\juanp\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\juanp\AppData\Local\Programs\Python\Python311\;C:\Users\juanp\AppData\Local\Microsoft\WindowsApps;C:\Users\juanp\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;C:\tools\dart-sdk\bin;C:\Users\juanp\AppData\Roaming\Pub\Cache\bin;C:\Users\juanp\AppData\Roaming\npm;."/>
-    <property name="jansi.passthrough" value="true"/>
-    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="63.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\juanp"/>
-    <property name="user.timezone" value="America/Bogota"/>
-    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="19"/>
-    <property name="user.name" value="juanp"/>
-    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
-    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\juanp\OneDrive\Escritorio\Inventario\inventario\target\test-classes;C:\Users\juanp\OneDrive\Escritorio\Inventario\inventario\target\classes;C:\Users\juanp\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\juanp\.m2\repository\io\github\lognet\grpc-spring-boot-starter\4.7.1\grpc-spring-boot-starter-4.7.1.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-netty-shaded\1.47.0\grpc-netty-shaded-1.47.0.jar;C:\Users\juanp\.m2\repository\com\google\guava\guava\31.0.1-android\guava-31.0.1-android.jar;C:\Users\juanp\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\juanp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\juanp\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\juanp\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\juanp\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\juanp\.m2\repository\com\google\errorprone\error_prone_annotations\2.10.0\error_prone_annotations-2.10.0.jar;C:\Users\juanp\.m2\repository\io\perfmark\perfmark-api\0.25.0\perfmark-api-0.25.0.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-core\1.47.0\grpc-core-1.47.0.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-api\1.47.0\grpc-api-1.47.0.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-context\1.47.0\grpc-context-1.47.0.jar;C:\Users\juanp\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\juanp\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\juanp\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.19\animal-sniffer-annotations-1.19.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-services\1.47.0\grpc-services-1.47.0.jar;C:\Users\juanp\.m2\repository\com\google\protobuf\protobuf-java-util\3.19.2\protobuf-java-util-3.19.2.jar;C:\Users\juanp\.m2\repository\org\springframework\boot\spring-boot-starter\2.6.8\spring-boot-starter-2.6.8.jar;C:\Users\juanp\.m2\repository\org\springframework\boot\spring-boot\2.6.8\spring-boot-2.6.8.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-context\5.3.20\spring-context-5.3.20.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-aop\5.3.20\spring-aop-5.3.20.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-beans\5.3.20\spring-beans-5.3.20.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-expression\5.3.20\spring-expression-5.3.20.jar;C:\Users\juanp\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.6.8\spring-boot-autoconfigure-2.6.8.jar;C:\Users\juanp\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.6.8\spring-boot-starter-logging-2.6.8.jar;C:\Users\juanp\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\juanp\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\juanp\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\juanp\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\juanp\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\juanp\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\juanp\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-core\5.3.20\spring-core-5.3.20.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-jcl\5.3.20\spring-jcl-5.3.20.jar;C:\Users\juanp\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\juanp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.47.Final\netty-tcnative-boringssl-static-2.0.47.Final.jar;C:\Users\juanp\.m2\repository\io\netty\netty-tcnative-classes\2.0.47.Final\netty-tcnative-classes-2.0.47.Final.jar;C:\Users\juanp\.m2\repository\com\grp\inventario\grpc-interfaces\1.1-SNAPSHOT\grpc-interfaces-1.1-SNAPSHOT.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-stub\1.53.0\grpc-stub-1.53.0.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-protobuf\1.53.0\grpc-protobuf-1.53.0.jar;C:\Users\juanp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\juanp\.m2\repository\com\google\protobuf\protobuf-java\3.21.7\protobuf-java-3.21.7.jar;C:\Users\juanp\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.9.0\proto-google-common-protos-2.9.0.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-protobuf-lite\1.53.0\grpc-protobuf-lite-1.53.0.jar;C:\Users\juanp\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\juanp\.m2\repository\org\mongodb\mongodb-driver-sync\4.3.3\mongodb-driver-sync-4.3.3.jar;C:\Users\juanp\.m2\repository\org\mongodb\bson\4.3.3\bson-4.3.3.jar;C:\Users\juanp\.m2\repository\org\mongodb\mongodb-driver-core\4.3.3\mongodb-driver-core-4.3.3.jar;C:\Users\juanp\.m2\repository\io\github\cdimascio\dotenv-java\2.2.0\dotenv-java-2.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 clean package verify install"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\juanp\AppData\Local\Temp\surefire9684548081740629151\surefirebooter-20230306231452991_3.jar C:\Users\juanp\AppData\Local\Temp\surefire9684548081740629151 2023-03-06T23-14-52_692-jvmRun1 surefire-20230306231452991_1tmp surefire_0-20230306231452991_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\juanp\OneDrive\Escritorio\Inventario\inventario\target\test-classes;C:\Users\juanp\OneDrive\Escritorio\Inventario\inventario\target\classes;C:\Users\juanp\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\juanp\.m2\repository\io\github\lognet\grpc-spring-boot-starter\4.7.1\grpc-spring-boot-starter-4.7.1.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-netty-shaded\1.47.0\grpc-netty-shaded-1.47.0.jar;C:\Users\juanp\.m2\repository\com\google\guava\guava\31.0.1-android\guava-31.0.1-android.jar;C:\Users\juanp\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\juanp\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\juanp\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\juanp\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\juanp\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\juanp\.m2\repository\com\google\errorprone\error_prone_annotations\2.10.0\error_prone_annotations-2.10.0.jar;C:\Users\juanp\.m2\repository\io\perfmark\perfmark-api\0.25.0\perfmark-api-0.25.0.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-core\1.47.0\grpc-core-1.47.0.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-api\1.47.0\grpc-api-1.47.0.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-context\1.47.0\grpc-context-1.47.0.jar;C:\Users\juanp\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\juanp\.m2\repository\com\google\android\annotations\4.1.1.4\annotations-4.1.1.4.jar;C:\Users\juanp\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.19\animal-sniffer-annotations-1.19.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-services\1.47.0\grpc-services-1.47.0.jar;C:\Users\juanp\.m2\repository\com\google\protobuf\protobuf-java-util\3.19.2\protobuf-java-util-3.19.2.jar;C:\Users\juanp\.m2\repository\org\springframework\boot\spring-boot-starter\2.6.8\spring-boot-starter-2.6.8.jar;C:\Users\juanp\.m2\repository\org\springframework\boot\spring-boot\2.6.8\spring-boot-2.6.8.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-context\5.3.20\spring-context-5.3.20.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-aop\5.3.20\spring-aop-5.3.20.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-beans\5.3.20\spring-beans-5.3.20.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-expression\5.3.20\spring-expression-5.3.20.jar;C:\Users\juanp\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.6.8\spring-boot-autoconfigure-2.6.8.jar;C:\Users\juanp\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.6.8\spring-boot-starter-logging-2.6.8.jar;C:\Users\juanp\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\juanp\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\juanp\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\juanp\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\juanp\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\juanp\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\juanp\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-core\5.3.20\spring-core-5.3.20.jar;C:\Users\juanp\.m2\repository\org\springframework\spring-jcl\5.3.20\spring-jcl-5.3.20.jar;C:\Users\juanp\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\juanp\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.47.Final\netty-tcnative-boringssl-static-2.0.47.Final.jar;C:\Users\juanp\.m2\repository\io\netty\netty-tcnative-classes\2.0.47.Final\netty-tcnative-classes-2.0.47.Final.jar;C:\Users\juanp\.m2\repository\com\grp\inventario\grpc-interfaces\1.1-SNAPSHOT\grpc-interfaces-1.1-SNAPSHOT.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-stub\1.53.0\grpc-stub-1.53.0.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-protobuf\1.53.0\grpc-protobuf-1.53.0.jar;C:\Users\juanp\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\juanp\.m2\repository\com\google\protobuf\protobuf-java\3.21.7\protobuf-java-3.21.7.jar;C:\Users\juanp\.m2\repository\com\google\api\grpc\proto-google-common-protos\2.9.0\proto-google-common-protos-2.9.0.jar;C:\Users\juanp\.m2\repository\io\grpc\grpc-protobuf-lite\1.53.0\grpc-protobuf-lite-1.53.0.jar;C:\Users\juanp\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\juanp\.m2\repository\org\mongodb\mongodb-driver-sync\4.3.3\mongodb-driver-sync-4.3.3.jar;C:\Users\juanp\.m2\repository\org\mongodb\bson\4.3.3\bson-4.3.3.jar;C:\Users\juanp\.m2\repository\org\mongodb\mongodb-driver-core\4.3.3\mongodb-driver-core-4.3.3.jar;C:\Users\juanp\.m2\repository\io\github\cdimascio\dotenv-java\2.2.0\dotenv-java-2.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\juanp"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="19.0.2"/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="UTF-8"/>
-    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3"/>
-    <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\juanp\OneDrive\Escritorio\Inventario\inventario"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\juanp\AppData\Local\Temp\surefire9684548081740629151\surefirebooter-20230306231452991_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="juanp"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\juanp\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\juanp\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="C:\Users\juanp\OneDrive\Escritorio\Inventario\inventario"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\gradle-6.9.4\bin;C:\Program Files\Java\apache-maven-3.9.0\bin;C:\ProgramData\chocolatey\bin;C:\Users\juanp\AppData\Local\Pub\Cache\bin;C:\tools\proto\bin;C:\Program Files\nodejs\;C:\Users\juanp\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\juanp\AppData\Local\Programs\Python\Python311\;C:\Users\juanp\AppData\Local\Microsoft\WindowsApps;C:\Users\juanp\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;C:\tools\dart-sdk\bin;C:\Users\juanp\AppData\Roaming\Pub\Cache\bin;C:\Users\juanp\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="UTF-8"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase classname="com.service.AppTest" name="testApp" time="0.003"/>
+  <testcase name="testApp" classname="com.service.AppTest" time="0.003"/>
 </testsuite>

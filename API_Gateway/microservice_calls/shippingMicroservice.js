@@ -61,7 +61,7 @@ function getOrder(request, response) {
             console.error(error);
             response.status(500).json({ message: 'Error obteniendo orden' });
         } else {
-            response.status(200).json({ product: grpcResponse.order });
+            response.status(200).json({ order: grpcResponse.order });
         }
     });
 }
